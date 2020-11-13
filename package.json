@@ -1,5 +1,5 @@
 {
-  "name": "tambulihuddle-web-js-sdk",
+  "name": "matrix-js-sdk",
   "version": "1.0.0",
   "description": "Matrix Client-Server SDK for Javascript",
   "scripts": {
