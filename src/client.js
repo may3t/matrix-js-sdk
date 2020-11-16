@@ -3750,7 +3750,7 @@ function(roomId, fromToken, limit, dir, timelineFilter = undefined) {
     }
     if (timelineFilter) {
         // XXX: it's horrific that /messages' filter parameter doesn't match
-        // /sync's one - see https://tambuli.app/jira/browse/SPEC-451
+        // /sync's one - see https://tambulilabs.com/jira/browse/SPEC-451
         filter = filter || {};
         Object.assign(filter, timelineFilter.getRoomTimelineFilterComponent());
     }

@@ -1,7 +1,7 @@
 Matrix Javascript SDK
 =====================
 
-This is the [Matrix](https://tambuli.app) Client-Server r0 SDK for
+This is the [Matrix](https://tambulilabs.com) Client-Server r0 SDK for
 JavaScript. This SDK can be run in a browser or in Node.js.
 
 Quickstart
@@ -37,7 +37,7 @@ if you do not have it already.
 
 ```javascript
   import * as sdk from "matrix-js-sdk";
-  const client = sdk.createClient("https://tambuli.app");
+  const client = sdk.createClient("https://tambulilabs.com");
   client.publicRooms(function(err, data) {
     console.log("Public Rooms: %s", JSON.stringify(data));
   });

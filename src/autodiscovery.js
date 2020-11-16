@@ -21,7 +21,7 @@ import {logger} from './logger';
 import {URL as NodeURL} from "url";
 
 // Dev note: Auto discovery is part of the spec.
-// See: https://tambuli.app/docs/spec/client_server/r0.4.0.html#server-discovery
+// See: https://tambulilabs.com/docs/spec/client_server/r0.4.0.html#server-discovery
 
 /**
  * Description for what an automatically discovered client configuration
@@ -36,7 +36,7 @@ class DiscoveredClientConfig { // eslint-disable-line no-unused-vars
     // object as defined in the spec. It does have additional information,
     // however. Overall, this exists to serve as a place for documentation
     // and not functionality.
-    // See https://tambuli.app/docs/spec/client_server/r0.4.0.html#get-well-known-matrix-client
+    // See https://tambulilabs.com/docs/spec/client_server/r0.4.0.html#get-well-known-matrix-client
 
     constructor() {
         /**
@@ -67,7 +67,7 @@ class DiscoveredClientConfig { // eslint-disable-line no-unused-vars
              * particularly for the login process. May be falsey if the
              * state is not AutoDiscovery.SUCCESS.
              */
-            base_url: "https://tambuli.app",
+            base_url: "https://tambulilabs.com",
         };
 
         /**

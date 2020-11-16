@@ -1,5 +1,5 @@
 console.log("Loading browser sdk");
-var BASE_URL = "https://tambuli.app";
+var BASE_URL = "https://tambulilabs.com";
 var TOKEN = "accesstokengoeshere";
 var USER_ID = "@username:localhost";
 var ROOM_ID = "!room:id";
